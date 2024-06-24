@@ -5,6 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
     "start": "nodemon server.js"
   },
   "repository": {
@@ -18,9 +19,14 @@
   },
   "homepage": "https://github.com/steph-d989/weather-app#readme",
   "dependencies": {
-    "dotenv": "^16.4.5"
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "request": "^2.88.2"
   },
   "devDependencies": {
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.4"
   }
 }
